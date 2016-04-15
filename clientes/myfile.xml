@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Clientes>
+  <Cliente>
+    <id_Cliente>1</id_Cliente>
+    <nome>José Silvo</nome>
+    <morada>Rua do Sobe e Desce, 10 - 2º Esq.</morada>
+    <telefone>289001122</telefone>
+    <email>josesilva@mail.com</email>
+    <nif>123456790</nif>
+  </Cliente>
+  <Cliente>
+    <id_Cliente>139</id_Cliente>
+    <nome>Jose Emanuel</nome>
+    <morada>Rua das Garças</morada>
+    <telefone>123123123</telefone>
+    <email>asdjasdsad</email>
+    <nif>123123123</nif>
+  </Cliente>
+</Clientes>

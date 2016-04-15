@@ -1,0 +1,33 @@
+<b>Pear Linux 8 restore repositories (to update and install new software)</b>
+<br>
+<a href="http://askubuntu.com/questions/124017/how-do-i-restore-the-default-repositories"> Link</a>
+<br>
+Go to repogen.simplylinux.ch.
+
+Select your Country and Ubuntu Release.
+
+For the default set of repositories, you need to enable these repositories.
+
+All of the Ubuntu Branches repositories.
+Security - Important Security Updates.
+Security Sources Repository
+Updates - Recommended Updates
+Updates Sources Repository
+If you want to install software from Canonical Partner Repositories (closed source software), enable the Ubuntu Partner Repositories (both of them).
+
+Enable any 3rd party repository you wish to enable.
+
+Now, click the Generate List button at the bottom of that page and you'll see your generated sources.list. 
+
+
+Replace the old sources.list with the new one
+Run the following commands in a Terminal.
+
+sudo mv /etc/apt/sources.list /etc/apt/sources.list.old
+gksudo gedit /etc/apt/sources.list
+Copy/paste all the text from the newly generated sources.list to this file. Save it and close Gedit.
+
+Now, update apt.
+
+sudo apt-get update
+This will update your repository index with the current sources.list and then you can install any software using Software Center, Synaptic or apt-get.

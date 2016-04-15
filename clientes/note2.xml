@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<?xml-stylesheet type="text/css" href="escola.css"?> 
+
+<!DOCTYPE escola[ 
+<!ELEMENT escola (aluno+)>
+
+<!ELEMENT aluno (id, nome, disciplina)>
+	<!ATTLIST aluno 
+		id ID #REQUIRED 
+		nome CDATA #REQUIRED>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT nome (#PCDATA)>
+
+<!ELEMENT disciplina (fisica, matematica, programacao, analise_sistemas, algebra)>
+<!ELEMENT fisica (nota)>
+<!ELEMENT matematica (nota)>
+<!ELEMENT programacao (nota)>
+<!ELEMENT analise_sistemas (nota)>
+<!ELEMENT algebra (nota)>
+
+
+<!ELEMENT nota (#PCDATA)> 
+	<!ATTLIST nota 
+	valor CDATA #IMPLIED> 
+]>
+
+
+
+
+<escola>
+	<aluno id="a0001" nome="João Silva">
+		<id>a0001</id>
+		<nome>João Silva</nome>
+		<disciplina>
+			<fisica>
+				<nota valor="10">10</nota>
+			</fisica>
+			<matematica>
+				<nota></nota>
+			</matematica>
+			<programacao>
+				<nota></nota>
+			</programacao>
+			<analise_sistemas>
+				<nota>12</nota>
+			</analise_sistemas>
+			<algebra>
+				<nota>14</nota>
+			</algebra>
+		</disciplina>
+	</aluno>
+
+	<aluno id="a0002" nome="Ramos Ben">
+		<id>a0002</id>
+		<nome>Ramos Ben</nome>
+		<disciplina>
+			<fisica>
+				<nota valor="19">19</nota>
+			</fisica>
+			<matematica>
+				<nota></nota>
+			</matematica>
+			<programacao>
+				<nota></nota>
+			</programacao>
+			<analise_sistemas>
+				<nota>10</nota>
+			</analise_sistemas>
+			<algebra>
+				<nota>9</nota>
+			</algebra>
+		</disciplina>
+	</aluno>
+
+	
+</escola>

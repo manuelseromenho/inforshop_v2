@@ -1,0 +1,81 @@
+body{font-family: Arial, Verdan; background-color: #d7dbe1;}
+
+/******************************************************************************/
+div.dark-matter{margin: 120px; margin-left: auto; margin-right: auto; max-width: 500px; height: 40%; background: #0a28f0; padding: 20px 30px 20px 30px; color: #D3D3D3; text-shadow: 1px 1px 1px #444; border: none; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px;}
+
+.dark-matter h1 {padding: 10px 0px 10px 40px; display: block; border-bottom: 1px solid #c1c1ff;  margin: -10px -30px 30px -30px; color: #c1c1ff;}
+
+.dark-matter input[type="text"], 
+.dark-matter input[type="password"], 
+.dark-matter select 
+	{border: none; color: #525252; line-height:15px; margin-bottom: 16px; margin-right: 6px; margin-top: 2px; outline: 0 none; padding: 5px 0px 5px 5px; width: 70%; border-radius: 2px; -webkit-border-radius: 2px; -moz-border-radius: 2px; -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); background: #DFDFDF; }
+
+.dark-matter .button {margin: 0 0 0 35%; background: #c1c1ff; border: none; padding: 10px 25px 10px 25px; color: #0a28f0; border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; text-shadow: 1px 1px 1px #FFE477; font-weight: bold; box-shadow: 1px 1px 1px #3D3D3D; -webkit-box-shadow:1px 1px 1px #3D3D3D; -moz-box-shadow:1px 1px 1px #3D3D3D; }
+
+.dark-matter .button:hover {color: #0a28f0; background-color: #EBEBEB; }
+
+.selected{width: 100%; border: none; color: #525252; outline: 0 none; padding: 2px 0px 5px 5px; }
+
+/****************************************************************************/
+
+#cssmenu{font-size: 20px; text-transform: uppercase; text-align: left; }
+
+#cssmenu>ul{width: auto; list-style-type: none; padding: 0; margin: 0; background: #ffffff; border: 1px solid #c1c1ff; border-bottom: 3px solid #c1c1ff; -webkit-border-radius: 2px; -moz-border-radius: 2px; -o-border-radius: 2px; border-radius: 2px; }
+
+#cssmenu> ul li#responsive-tab{display: none; /* Hide for large screens */ }
+
+#cssmenu> ul li{display: inline-block; }
+
+#cssmenu> ul li.right{float: right; }
+
+#cssmenu> ul li.has-sub:hover ul{display: block; }
+
+#cssmenu> ul li.has-sub ul{display: none; position: absolute; margin: 0; padding: 0; list-style-type: none; background: #ffffff; border: 1px solid #ece6e8; }
+
+#cssmenu> ul li.has-sub ul li {display: block; width: 100%;}
+
+#cssmenu> ul li a{display: block; padding: 15px 24px 15px; text-decoration: none; color: #0a28f0; }
+
+#cssmenu> ul li a.active, #cssmenu > ul li a:hover{background: #0a28f0; color: #fff; }
+
+/*******************************************************/
+
+div.footer {background-color: #fff; padding: 10px; text-align: right; border: 1px solid #c1c1ff; border-bottom: 3px solid #c1c1ff; -webkit-border-radius: 2px; -moz-border-radius: 2px; -o-border-radius: 2px; border-radius: 2px; }
+
+div.footer a {color: #0a28f0; text-decoration: none; }
+
+div.footer a:hover {text-decoration: underline; }
+
+div.footer p{padding:0px; margin: 0px; }
+
+div.container {width: 100%; height: auto; background: #fff; border: 1px solid #cccccc; border-radius: 10px; margin: auto; text-align: left; border-bottom: 3px solid #c1c1ff; -webkit-border-radius: 2px; -moz-border-radius: 2px; -o-border-radius: 2px; border-radius: 2px;}
+
+/***********************************************************/
+p.form{text-shadow: 0px 0px 0px #0a28f0; font-weight: bold; font-size: 15px;}
+
+p.label{width: auto; text-shadow: 0px 0px 2px #ccc; font-weight: bold; font-size: 15px; }
+
+.input{width: auto; height:auto; font-size: 15px; border: 0px solid #b9bdc1; color: #797979; }
+
+.button{float: right; margin: 10px 10px 10px 0; font-weight: bold; line-height: 1; padding: 6px 10px; cursor:pointer; color: #fff; text-align: center; text-shadow: 0 -1px 1px #64799e; background: #0a28f0; box-shadow: inset 0 1px 0 0 #aec3e5;}
+
+/*****************************************************************/
+
+table, tr, td{margin: 0px 0px; width: auto; text-align: center; border: 1px solid #c1c1ff; vertical-align: middle; }
+
+h2{color:#0a28f0; height: auto; font-size: 18px; width: auto; }
+
+td.img{width: 100px; }
+
+tr:hover{background: #c1c1ff; }
+
+table.procura, tr.procura, .procura h2{width: 450px; }
+
+/*.procura tr{background-color: #c1c1ff;}*/
+
+table.table{width: auto; }
+
+/*table.produtos{float: left; }*/
+
+/*table h2{font-size: 20px;}*/
+
